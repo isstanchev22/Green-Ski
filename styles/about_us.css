@@ -8,6 +8,12 @@ html{
     width: 100%;
     height: 100%;
 }
+body {
+    background-image: url(https://avatars.mds.yandex.net/get-vertis-journal/4466156/Untitled-5.jpg_1671447039807/orig);
+    backdrop-filter: blur(3vw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 p{
     margin-top: 10px;
 }
@@ -36,22 +42,40 @@ li a {
 li a:hover {
     background-color: #111;
 }
+.mainsec {
+    margin: 20px;
+}
+.intro {
+    text-align: center;
+}
+#headline {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+}
+
+.intro p {
+    color: #000000; 
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.5;
+    font-size: 28px;
+}
 .teamtable {
     display: flex;
     justify-content: space-evenly;
     line-height: 80pt;
     margin: 40pt auto;
     padding-bottom: 3vh;
-    background: linear-gradient(to right, #c6d1cc, #333942); 
     border-radius: 15px;
     width: 95%; 
     height: 900px;
+    background: linear-gradient(to right, #3a6e5b, #6fc9a8, #3a6e5b);
 }
 
 .teamtable, h1, h2, h3, a {
-    font-family: 'Nova Square';
+    font-family: 'Nova Square', sans-serif;
     color: rgb(48, 44, 44);
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .teamtable h1 {
@@ -69,6 +93,46 @@ li a:hover {
 
 .teamtable img {
     width: 16.15vw;
-    height: 42.6vh;
+    height: 38vh;
     border-radius: 2.5vh;
 }
+@keyframes slide {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-100%);
+    }
+    }
+    .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    top: 50px;
+    white-space: nowrap;
+    position: relative;
+    }
+    .logos:before,
+    .logos:after {
+    position: absolute;
+    top: 500;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+    }
+    .logos:before {
+    left: 0;
+   
+    }
+    .logos:after {
+    right: 0;
+   
+    }
+    .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+    }
+    .logos-slide img {
+    height: 90px;
+    margin: 0 30px;
+    }
