@@ -36,3 +36,39 @@ li a {
 li a:hover {
     background-color: #111;
 }
+.teamtable {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 80pt;
+    margin: 40pt auto;
+    padding-bottom: 3vh;
+    background: linear-gradient(to right, #c6d1cc, #333942); 
+    border-radius: 15px;
+    width: 95%; 
+    height: 900px;
+}
+
+.teamtable, h1, h2, h3, a {
+    font-family: 'Nova Square';
+    color: rgb(48, 44, 44);
+    text-decoration:none;
+}
+
+.teamtable h1 {
+    font-size: 1.8vw;
+}
+
+.teamtable h3 {
+    font-size: 1.7vw;
+}
+
+.teamtable, td {
+    text-align: center;
+    column-width: 9999pt;
+}
+
+.teamtable img {
+    width: 16.15vw;
+    height: 42.6vh;
+    border-radius: 2.5vh;
+}
