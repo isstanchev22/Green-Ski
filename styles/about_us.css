@@ -53,6 +53,7 @@ li a:hover {
     font-family: 'Arial', sans-serif;
     font-size: 50px;
 }
+
 .intro p {
     color: #000000; 
     font-family: 'Arial', sans-serif; 
@@ -70,6 +71,7 @@ li a:hover {
     height: 900px;
     background: linear-gradient(to right, #3a6e5b, #6fc9a8, #3a6e5b);
 }
+
 .teamtable, h1, h2, h3, a {
     font-family: 'Nova Square', sans-serif;
     color: rgb(48, 44, 44);
@@ -120,9 +122,11 @@ li a:hover {
     }
     .logos:before {
     left: 0;
+   
     }
     .logos:after {
     right: 0;
+   
     }
     .logos-slide {
     display: inline-block;
