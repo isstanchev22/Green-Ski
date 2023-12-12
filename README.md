@@ -3,7 +3,7 @@
 <hr>
 
 ## 💻 About
-<p>This is our take on the Robotics Project. Here you'll find the source code & files for our site, that is made with HTML, CSS and JS. You can learn about robotics, their hisotry and much more!</p>
+<p>This is our take on the GreenChallenge Project. Here you'll find the source code & files for our site, that is made with HTML, CSS and JS. You can learn about robotics, their hisotry and much more!</p>
 
 <hr>
 
