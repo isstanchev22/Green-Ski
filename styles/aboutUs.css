@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@600&display=swap');
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+>>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59
 *{
     padding: 0px;
     margin: 0px;
@@ -7,6 +11,7 @@ html{
     width: 100%;
     height: 100%;
 }
+<<<<<<< HEAD
 .nav-bar{
     background-color: #333;
 }
@@ -118,6 +123,95 @@ html{
 }
 p {
 text-align: center;
+=======
+/*body {
+    background-image: url(https://avatars.mds.yandex.net/get-vertis-journal/4466156/Untitled-5.jpg_1671447039807/orig);
+    backdrop-filter: blur(3vw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+p{
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 23px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 34px 60px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.mainsec {
+    margin: 20px;
+}
+.intro {
+    text-align: center;
+}
+#headline {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+}
+
+.intro p {
+    color: #000000; 
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.5;
+    font-size: 28px;
+}
+.teamtable {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 80pt;
+    margin: 40pt auto;
+    padding-bottom: 3vh;
+    border-radius: 15px;
+    width: 95%; 
+    height: 900px;
+   /* background: linear-gradient(to right, #3a6e5b, #6fc9a8, #3a6e5b);*/
+}
+
+.teamtable, h1, h2, h3, a {
+    font-family: 'Nova Square', sans-serif;
+    color: rgb(48, 44, 44);
+    text-decoration: none;
+}
+
+.teamtable h1 {
+    font-size: 1.8vw;
+}
+
+.teamtable h3 {
+    font-size: 1.7vw;
+}
+
+.teamtable, td {
+    text-align: center;
+    column-width: 9999pt;
+}
+
+.teamtable img {
+    width: 16.15vw;
+    height: 38vh;
+    border-radius: 2.5vh;
+>>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59
 }
 @keyframes slide {
     from {
@@ -158,6 +252,7 @@ text-align: center;
     .logos-slide img {
     height: 90px;
     margin: 0 30px;
+<<<<<<< HEAD
     }
     .desc {
         font-size: 20px;
@@ -174,3 +269,6 @@ text-align: center;
         opacity: 0.4;
     }
     
+=======
+    }
+>>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59
