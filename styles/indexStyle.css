@@ -55,11 +55,17 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .heading{
+    color: white;
+    margin-left: 70px;
+  }
+  .infoox{
+    color: white;
+  }
   
   button {
     position: absolute;
-    display: flex;
-    align-items: center;
+    bottom: 8rem;
     justify-content: center;
     background: white;
     border: solid 2px black;
