@@ -5,6 +5,8 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
+
 body {
     height: 100vh;
     margin: 0;
@@ -58,9 +60,13 @@ body {
   .heading{
     color: white;
     margin-left: 70px;
+    margin-bottom: 200px;
   }
   .infoox{
     color: white;
+    margin-right: 90px;
+    margin-bottom: 30px;
+   
   }
   
   button {
