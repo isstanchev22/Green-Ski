@@ -6,10 +6,6 @@
     overflow-x: hidden;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59
 body {
     height: 100vh;
     margin: 0;
@@ -62,7 +58,6 @@ body {
     margin: 0;
     padding: 0;
   }
-<<<<<<< HEAD
 
 .main-wrapper
 {
@@ -71,76 +66,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-=======
-  
-  .buttons-container {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .heading{
-    color: white;
-    margin-left: 70px;
-    margin-bottom: 200px;
-  }
-  .infoox{
-    color: white;
-    margin-right: 90px;
-    margin-bottom: 30px;
-   
-  }
-  
-  button {
-    position: absolute;
-    bottom: 8rem;
-    justify-content: center;
-    background: rgba(173, 173, 173, 0.623);
-    border: solid 2px rgba(231, 231, 231, 0.596)28, 128, 128;
-    padding: 4% 10%;
-    font-size: 1rem;
-  }
-  
-  .button-arounder {
-    font-size: 2rem;
-    background: rgb(255, 255, 255), 0.411;
-    color: hsl(0, 0%, 100%);
-    
-    box-shadow: 0 0px 0px hsl(0, 0%, 100%);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    
-    --dur: 0.1s;
-    --delay: 0.1s;
-    --radius: 16px;
-    transition:
-      border-top-left-radius var(--dur) var(--delay) ease-out,
-      border-top-right-radius var(--dur) calc(var(--delay) * 2) ease-out,
-      border-bottom-right-radius var(--dur) calc(var(--delay) * 3) ease-out,
-      border-bottom-left-radius var(--dur) calc(var(--delay) * 4) ease-out,
-      box-shadow calc(var(--dur) * 4) ease-out,
-      transform calc(var(--dur) * 4) ease-out,
-      background calc(var(--dur) * 4) steps(4, jump-end);
-  }
-  
-  .button-arounder:hover, .button-arounder:focus {
-    box-shadow: 0 4px 8px hsl(0, 0%, 100%);
-    transform: translateY(-4px);
-    background: hsl(128, 50%, 45%);
-    border-top-left-radius: var(--radius);
-    border-top-right-radius: var(--radius);
-    border-bottom-left-radius: var(--radius);
-    border-bottom-right-radius: var(--radius);
-  }
-  .main-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
->>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59
 }
 .main-text{
   position: relative;
@@ -159,7 +84,6 @@ body {
   font-family: Poppins;
   font-size: 1.5rem;
   color: #414141;
-<<<<<<< HEAD
 }
 .back {
   position: absolute;
@@ -240,6 +164,3 @@ span {
   -webkit-text-stroke: 2px #fff;
 }
 
-=======
-}
->>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59

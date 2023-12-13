@@ -7,19 +7,7 @@ html{
     width: 100%;
     height: 100%;
 }
-<<<<<<< HEAD
 .nav-bar{
-=======
-
-p{
-    margin-top: 10px;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
->>>>>>> fd7c227b55bde7e300383091aaf935eb31fcea59
     background-color: #333;
   }
   .navimg{
